@@ -8,7 +8,8 @@ export class ConfigService {
 
   constructor() { 
     Parse.initialize(
-      '',''
+      '',
+      ''
     );
 
     (<any>Parse).serverURL = 'https://parseapi.back4app.com/';
